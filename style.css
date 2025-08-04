@@ -1,22 +1,13 @@
 body {
+  background-color: #fdf6f6;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 40px;
   margin: 0;
-  padding: 0;
-  background-color: #0d0d0d;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
-.gallery img {
-  max-width: 90%;
-  max-height: 90vh;
-  border-radius: 20px;
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
-  transition: transform 0.3s ease;
-}
-
-.gallery img:hover {
-  transform: scale(1.03);
+h1 {
+  color: #ff6fa2;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
